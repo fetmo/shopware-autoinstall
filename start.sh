@@ -14,8 +14,7 @@ echo "INSERT INTO 's_core_shops' ('id', 'main_id', 'name', 'title', 'position', 
 
 
 for file in sql/*.sql; do
-	cat $file
-#	mysql -u$user -p$password -h$host -P$port $dbname < $file
+	mysql -u$user -p$password -h$host -P$port $dbname < $file
 done
 
 cd shop

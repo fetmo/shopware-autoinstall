@@ -1,2 +1,0 @@
-
-INSERT INTO 's_core_shops' ('id', 'main_id', 'name', 'title', 'position', 'host', 'base_path', 'base_url', 'hosts', 'secure', 'secure_host', 'secure_base_path', 'template_id', 'document_template_id', 'category_id', 'locale_id', 'currency_id', 'customer_group_id', 'fallback_id', 'customer_scope', 'default', 'active', 'always_secure') VALUES (1, NULL, 'Test2', 'Test2', 0, 'test.dev.local', NULL, NULL, 'test.dev.local', 0, NULL, NULL, 22, 22, 3, 1, 1, 1, NULL, 0, 1, 1, 0);
