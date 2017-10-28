@@ -10,7 +10,7 @@ read -p 'Shop name?         '  shopname
 read -p 'Shop url?          '  url
 
 echo "" > sql/3_create_shop.sql
-echo "INSERT INTO 's_core_shops' ('id', 'main_id', 'name', 'title', 'position', 'host', 'base_path', 'base_url', 'hosts', 'secure', 'secure_host', 'secure_base_path', 'template_id', 'document_template_id', 'category_id', 'locale_id', 'currency_id', 'customer_group_id', 'fallback_id', 'customer_scope', 'default', 'active', 'always_secure') VALUES (1, NULL, '$shopname', '$shopname', 0, '$url', NULL, NULL, '$url', 0, NULL, NULL, 22, 22, 3, 1, 1, 1, NULL, 0, 1, 1, 0);" >> sql/3_create_shop.sql
+echo "INSERT INTO s_core_shops (id, main_id, name, title, position, host, base_path, base_url, hosts, secure, secure_host, secure_base_path, template_id, document_template_id, category_id, locale_id, currency_id, customer_group_id, fallback_id, customer_scope, \`default\`, active, always_secure) VALUES (1, NULL, '$shopname', '$shopname', 0, '$url', NULL, NULL, '$url', 0, NULL, NULL, 22, 22, 3, 1, 1, 1, NULL, 0, 1, 1, 0);" >> sql/3_create_shop.sql
 
 
 for file in sql/*.sql; do
@@ -38,6 +38,7 @@ echo "  )" >> config.php
 echo ");" >> config.php
 
 if [ -d vendor ]
+then
 	rm -rf vendor
 fi
 
