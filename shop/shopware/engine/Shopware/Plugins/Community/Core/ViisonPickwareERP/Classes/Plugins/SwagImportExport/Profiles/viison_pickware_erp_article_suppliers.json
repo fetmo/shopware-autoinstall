@@ -1,0 +1,88 @@
+{
+    "id": "root",
+    "name": "Root",
+    "type": "node",
+    "children": [
+        {
+            "id": "8e072a713f",
+            "name": "Header",
+            "index": 0,
+            "type": "node",
+            "children": [
+                {
+                    "id": "751f472e4e",
+                    "name": "HeaderChild",
+                    "index": 0,
+                    "type": "node",
+                    "shopwareField": ""
+                }
+            ]
+        },
+        {
+            "id": "44fede3adb",
+            "name": "ViisonPickwareERPArticleSuppliers",
+            "index": 1,
+            "type": "node",
+            "children": [
+                {
+                    "id": "a545670b14",
+                    "name": "aticle",
+                    "index": 0,
+                    "type": "iteration",
+                    "adapter": "default",
+                    "children": [
+                        {
+                            "id": "63f261719b",
+                            "name": "articleNumber",
+                            "index": 0,
+                            "type": "leaf",
+                            "shopwareField": "articleNumber"
+                        },
+                        {
+                            "id": "8ed2znzean",
+                            "name": "supplierArticleNumber",
+                            "index": 1,
+                            "type": "leaf",
+                            "shopwareField": "supplierArticleNumber"
+                        },
+                        {
+                            "id": "ygugc0nkeq",
+                            "name": "articleName",
+                            "index": 2,
+                            "type": "leaf",
+                            "shopwareField": "articleName"
+                        },
+                        {
+                            "id": "7938ab63ff",
+                            "name": "supplierId",
+                            "index": 3,
+                            "type": "leaf",
+                            "shopwareField": "supplierId"
+                        },
+                        {
+                            "id": "8d8a30f71d",
+                            "name": "defaultSupplier",
+                            "index": 4,
+                            "type": "leaf",
+                            "shopwareField": "defaultSupplier"
+                        },
+                        {
+                            "id": "7173a22255",
+                            "name": "purchasePrice",
+                            "index": 5,
+                            "type": "leaf",
+                            "shopwareField": "purchasePrice"
+                        },
+                        {
+                            "id": "13f2a77994",
+                            "name": "orderAmount",
+                            "index": 6,
+                            "type": "leaf",
+                            "shopwareField": "orderAmount"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

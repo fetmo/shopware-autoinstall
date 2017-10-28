@@ -1,0 +1,1 @@
+Ext.define("Shopware.apps.ViisonCommonOrderActivityPerformedDate.view.detail.Form",{ override:"Shopware.attribute.Form",createFields:function(){ var e=this.callParent(arguments);Ext.Array.each(e,function(e){ var r="_order_activity_performed_date";if(e&&e.name&&e.name.substring(e.name.length-r.length)===r){ e.readOnly=true}});return e}});

@@ -1,0 +1,1 @@
+Ext.define("Shopware.apps.ViisonCommonAnalytics.view.main.ImprovedToolbar",{ override:"Shopware.apps.Analytics.view.main.Toolbar",initComponent:function(){ this.enableOverflow=true;this.callParent(arguments)},viisonCommonAnalyticsImproveToolbar:function(o){ o()},viisonCommonAnalyticsRestoreToolbar:function(o){ o()}});

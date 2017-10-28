@@ -1,0 +1,1 @@
+Ext.define("Shopware.apps.ViisonCommonGridLabelPrinting.model.GridLabelTemplate",{ extend:"Ext.data.Model",fields:[{ name:"name",type:"string"},{ name:"title",type:"string"},{ name:"default",type:"boolean",defaultValue:false},{ name:"numCols",type:"int"},{ name:"numRows",type:"int"}]});

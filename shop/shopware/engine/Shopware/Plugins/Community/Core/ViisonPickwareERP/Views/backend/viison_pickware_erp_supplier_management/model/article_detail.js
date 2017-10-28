@@ -1,0 +1,1 @@
+Ext.define("Shopware.apps.ViisonPickwareERPSupplierManagement.model.ArticleDetail",{ extend:"Shopware.apps.ViisonPickwareERPSupplierCommon.model.ArticleDetail",fields:[{ name:"supplierId",type:"int"},{ name:"orderAmount",type:"int",useNull:true},{ name:"supplierArticleNumber",type:"string"}]});

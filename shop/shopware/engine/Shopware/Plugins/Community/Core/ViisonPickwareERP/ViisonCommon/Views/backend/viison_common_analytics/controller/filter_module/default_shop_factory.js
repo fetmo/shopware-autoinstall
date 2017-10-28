@@ -1,0 +1,1 @@
+Ext.define("Shopware.apps.ViisonCommonAnalytics.controller.FilterModule.DefaultShopFactory",{ getToolbarComponentValueRetriever:function(){ return function(e){ var n=e.child("[name=shop_selection]").getValue();if(n===undefined||n===null){ return n}return n.join(",")}},getToolbarFilterConfig:function(){ return{ componentConfig:{ name:"shop_selection",isDefault:true}}}});

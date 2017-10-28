@@ -1,0 +1,1 @@
+Ext.define("Shopware.apps.ViisonPickwareERPRatedStock.model.Article",{ extend:"Ext.data.Model",fields:[{ name:"articleId",type:"int"},{ name:"articleDetailId",type:"int"},{ name:"ordernumber",type:"string"},{ name:"articlename",type:"string"},{ name:"instock",type:"int"},{ name:"taxrate",type:"int"},{ name:"net",type:"decimal"},{ name:"gross",type:"decimal"}]});

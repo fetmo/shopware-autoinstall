@@ -1,0 +1,2 @@
+// {namespace name=backend/viison_pickware_erp_article_ean/main}
+Ext.define("Shopware.apps.ViisonPickwareERPArticleEAN.view.detail.Settings",{ override:"Shopware.apps.Article.view.detail.Settings",createRightElements:function(){ var e=this.callParent(arguments);Ext.Array.each(e,function(e){ if(e.name==="mainDetail[ean]"){ Ext.apply(e,{ fieldLabel:'{s name=field/label}{/s}',helpText:'{s name=field/help_text}{/s}',maskRe:new RegExp("[^\\s]")});return false}return undefined});return e}});

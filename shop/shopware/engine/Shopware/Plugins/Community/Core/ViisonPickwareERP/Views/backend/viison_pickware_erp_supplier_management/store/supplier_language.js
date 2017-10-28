@@ -1,0 +1,1 @@
+Ext.define("Shopware.apps.ViisonPickwareERPSupplierManagement.store.SupplierLanguage",{ extend:"Ext.data.Store",fields:["id","name"],autoLoad:false,proxy:{ type:"ajax",url:'{url controller=ViisonPickwareERPSupplierManagement action=getSupplierLanguageList}',reader:{ type:"json",root:"data"}}});

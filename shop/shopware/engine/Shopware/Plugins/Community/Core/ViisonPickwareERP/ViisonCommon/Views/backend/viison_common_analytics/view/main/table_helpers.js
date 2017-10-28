@@ -1,0 +1,1 @@
+Ext.define("Shopware.apps.ViisonCommonAnalytics.view.main.TableHelpers",{ percentageRenderer:function(e){ if(typeof e==="string"){ e=parseFloat(e)}if(Number.isNaN(e)||typeof e!=="number"){ return null}return(Math.round(e*100*100)/100).toFixed(2)+" %"}});

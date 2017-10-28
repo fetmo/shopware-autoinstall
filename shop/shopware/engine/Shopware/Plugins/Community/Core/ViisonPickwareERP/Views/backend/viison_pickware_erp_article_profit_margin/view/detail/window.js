@@ -1,0 +1,1 @@
+Ext.define("Shopware.apps.ViisonPickwareERPArticleProfitMargin.view.detail.Window",{ override:"Shopware.apps.Article.view.detail.Window",onStoresLoaded:function(e,i){ this.callParent(arguments);this.taxStore=i.taxes}});

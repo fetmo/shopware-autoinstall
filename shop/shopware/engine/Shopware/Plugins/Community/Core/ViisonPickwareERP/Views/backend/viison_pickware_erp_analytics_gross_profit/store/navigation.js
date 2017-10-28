@@ -1,0 +1,2 @@
+// {namespace name=backend/viison_pickware_erp_analytics/gross_profit}
+Ext.define("Shopware.apps.ViisonPickwareERPAnalyticsGrossProfit.store.Navigation",{ override:"Shopware.apps.Analytics.store.Navigation",constructor:function(i){ this.root.children.push({ text:'{s name=nav/grossProfit}{/s}',id:"gross-profit",iconCls:"sprite-currency-euro",store:"analytics-store-navigation-gross-profit",multiShop:true,leaf:true,viisonCommonAnalysisId:"Shopware.apps.ViisonPickwareERPAnalyticsGrossProfit"});this.callParent([i])}});

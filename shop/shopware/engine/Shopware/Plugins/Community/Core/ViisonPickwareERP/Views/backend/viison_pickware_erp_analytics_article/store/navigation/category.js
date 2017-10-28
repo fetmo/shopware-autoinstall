@@ -1,0 +1,1 @@
+Ext.define("Shopware.apps.ViisonPickwareERPAnalyticsArticle.store.navigation.Category",{ extend:"Ext.data.Store",alias:"widget.analytics-store-category",fields:["id","name"],storeId:"ViisonPickwareERPAnalyticsArticle.Category",proxy:{ type:"ajax",url:'{url controller=Category action=getPathByQuery}?parents=1',reader:{ type:"json",root:"data"}}});

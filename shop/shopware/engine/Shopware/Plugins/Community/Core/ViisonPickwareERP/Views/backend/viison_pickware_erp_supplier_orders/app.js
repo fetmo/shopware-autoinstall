@@ -1,0 +1,1 @@
+Ext.define("Shopware.apps.ViisonPickwareERPSupplierOrders",{ extend:"Enlight.app.SubApplication",name:"Shopware.apps.ViisonPickwareERPSupplierOrders",launch:function(){ return this.getController("Main").mainWindow}});

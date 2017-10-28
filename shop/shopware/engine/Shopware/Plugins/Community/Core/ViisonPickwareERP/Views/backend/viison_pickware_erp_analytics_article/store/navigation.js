@@ -1,0 +1,2 @@
+// {namespace name=backend/viison_pickware_erp_analytics/article}
+Ext.define("Shopware.apps.ViisonPickwareERPAnalyticsArticle.store.Navigation",{ override:"Shopware.apps.Analytics.store.Navigation",constructor:function(i){ this.root.children.push({ text:'{s name=nav/article}{/s}',id:"article",iconCls:"sprite-currency-euro",store:"analytics-store-navigation-article",multiShop:true,leaf:true,viisonCommonAnalysisId:"Shopware.apps.ViisonPickwareERPAnalyticsArticle"});this.callParent([i])}});

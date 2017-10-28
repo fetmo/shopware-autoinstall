@@ -1,0 +1,1 @@
+Ext.define("Shopware.apps.ViisonPickwareERPSupplierManagement.store.Fabricator",{ extend:"Shopware.apps.ViisonPickwareERPSupplierCommon.store.Fabricator",model:"Shopware.apps.ViisonPickwareERPSupplierManagement.model.Fabricator"});

@@ -1,0 +1,1 @@
+Ext.define("Shopware.apps.ViisonPickwareERPSupplierManagement.store.ArticleDetail",{ extend:"Shopware.apps.ViisonPickwareERPSupplierCommon.store.ArticleDetail",model:"Shopware.apps.ViisonPickwareERPSupplierManagement.model.ArticleDetail"});

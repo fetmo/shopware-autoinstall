@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ruleset name="ShopwarePlugins">
+    <!-- Use the VIISON ruleset installed by composer -->
+    <rule ref="./vendor/viison/style-guide/php/php-codesniffer-standard/VIISON">
+        <include-pattern>*.php</include-pattern>
+    </rule>
+
+    <!-- Exclude all shared dependencies -->
+    <exclude-pattern>*/ViisonCommon/*</exclude-pattern>
+</ruleset>

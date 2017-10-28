@@ -1,0 +1,2 @@
+// {namespace name=backend/viison_pickware_erp_index_purchase_price_mode_check/main}
+Ext.define("Shopware.apps.ViisonPickwareERPIndexPurchasePriceModeCheck.view.Menu",{ override:"Shopware.apps.Index.view.Menu",initComponent:function(){ this.on("menu-created",function(){ window.setTimeout(function(){ ViisonPickwarePurchasePriceConverter.checkPurchasePriceModeConfiguration()},500)},this);this.callParent(arguments)}});

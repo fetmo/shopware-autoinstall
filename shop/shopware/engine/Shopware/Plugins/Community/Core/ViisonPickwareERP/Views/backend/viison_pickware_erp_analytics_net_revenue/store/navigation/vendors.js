@@ -1,0 +1,1 @@
+Ext.define("Shopware.apps.ViisonPickwareERPAnalyticsNetRevenue.store.navigation.Vendors",{ override:"Shopware.apps.Analytics.store.navigation.Vendors",constructor:function(){ this.fields.push("turnoverNet");this.callParent(arguments)}});

@@ -1,0 +1,1 @@
+Ext.define("Shopware.apps.ViisonPickwareERPWarehouseManagement.model.ArticleDetailMapping",{ extend:"Ext.data.Model",fields:[{ name:"articleId",type:"int"},{ name:"articleDetailId",type:"int"},{ name:"number",type:"string"},{ name:"name",type:"string"},{ name:"stock",type:"int"}]});

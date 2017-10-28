@@ -1,0 +1,123 @@
+{
+    "id": "root",
+    "name": "Root",
+    "type": "node",
+    "children": [
+        {
+            "id": "8e072a713f",
+            "name": "Header",
+            "index": 0,
+            "type": "node",
+            "children": [
+                {
+                    "id": "751f472e4e",
+                    "name": "HeaderChild",
+                    "index": 0,
+                    "type": "node",
+                    "shopwareField": ""
+                }
+            ]
+        },
+        {
+            "id": "51e5eeb652",
+            "name": "ViisonPickwareERPSuppliers",
+            "index": 1,
+            "type": "node",
+            "children": [
+                {
+                    "id": "ca31ea8bce",
+                    "name": "supplier",
+                    "index": 0,
+                    "type": "iteration",
+                    "adapter": "default",
+                    "children": [
+                        {
+                            "id": "5e9e4ea0cc",
+                            "name": "supplierId",
+                            "index": 0,
+                            "type": "leaf",
+                            "shopwareField": "supplierId"
+                        },
+                        {
+                            "id": "f8fccc2acc",
+                            "name": "name",
+                            "index": 1,
+                            "type": "leaf",
+                            "shopwareField": "name"
+                        },
+                        {
+                            "id": "df7a58a7eb",
+                            "name": "salutation",
+                            "index": 2,
+                            "type": "leaf",
+                            "shopwareField": "salutation"
+                        },
+                        {
+                            "id": "987653c6a5",
+                            "name": "contact",
+                            "index": 3,
+                            "type": "leaf",
+                            "shopwareField": "contact"
+                        },
+                        {
+                            "id": "e503840498",
+                            "name": "address",
+                            "index": 4,
+                            "type": "leaf",
+                            "shopwareField": "address"
+                        },
+                        {
+                            "id": "0a86b9c208",
+                            "name": "email",
+                            "index": 5,
+                            "type": "leaf",
+                            "shopwareField": "email"
+                        },
+                        {
+                            "id": "3463eb5416",
+                            "name": "phone",
+                            "index": 6,
+                            "type": "leaf",
+                            "shopwareField": "phone"
+                        },
+                        {
+                            "id": "f04bf192bb",
+                            "name": "fax",
+                            "index": 7,
+                            "type": "leaf",
+                            "shopwareField": "fax"
+                        },
+                        {
+                            "id": "072018fc01",
+                            "name": "comment",
+                            "index": 8,
+                            "type": "leaf",
+                            "shopwareField": "comment"
+                        },
+                        {
+                            "id": "8f0fd33e0c",
+                            "name": "customerNumber",
+                            "index": 9,
+                            "type": "leaf",
+                            "shopwareField": "customerNumber"
+                        },
+                        {
+                            "id": "c04a6ca297",
+                            "name": "deliveryTime",
+                            "index": 10,
+                            "type": "leaf",
+                            "shopwareField": "deliveryTime"
+                        },
+                        {
+                            "id": "15b2f6262e",
+                            "name": "language",
+                            "index": 11,
+                            "type": "leaf",
+                            "shopwareField": "language"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

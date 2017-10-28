@@ -1,0 +1,1 @@
+Ext.define("Shopware.apps.ViisonPickwareERPArticleStockFieldSet.controller.Variant",{ override:"Shopware.apps.Article.controller.Variant",onSaveVariant:function(e){ var a=e.down("viison_pickware_erp_article_stock_field_set-stock_field_set");if(!a.cancelChangedAvailableStockButton.isHidden()){ a.cancelChangedAvailableStockButtonHandler()}this.callParent(arguments)}});

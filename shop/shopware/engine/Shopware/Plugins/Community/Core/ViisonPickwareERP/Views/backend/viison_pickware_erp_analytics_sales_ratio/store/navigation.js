@@ -1,0 +1,2 @@
+// {namespace name=backend/viison_pickware_erp_analytics/sales_ratio}
+Ext.define("Shopware.apps.ViisonPickwareERPAnalyticsSalesRatio.store.Navigation",{ override:"Shopware.apps.Analytics.store.Navigation",constructor:function(i){ this.root.children.push({ text:'{s name=nav/salesRatio}{/s}',id:"sales-ratio",iconCls:"sprite-edit-percent",store:"analytics-store-navigation-sales-ratio",multiShop:true,leaf:true,viisonCommonAnalysisId:"Shopware.apps.ViisonPickwareERPAnalyticsSalesRatio"});this.callParent([i])}});

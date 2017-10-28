@@ -1,0 +1,1 @@
+Ext.define("Shopware.apps.ViisonPickwareERPStockOverview.ux.chart.LegendItem",{ override:"Ext.chart.LegendItem",createLegend:function(e){ if(typeof e.series.viisonLegendMarkerType!=="undefined"){ switch(e.series.viisonLegendMarkerType){ case"rect":e.series.type="area";break;case"line":e.series.type="line";break;default:}}this.callParent([e])}});

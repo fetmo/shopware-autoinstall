@@ -1,0 +1,1 @@
+Ext.define("Shopware.apps.ViisonPickwareERPOrderStatusBasedPositionUpdate.store.Batch",{ override:"Shopware.apps.Order.store.Batch",constructor:function(){ this.callParent(arguments);this.on("beforesync",function(){ ViisonPickwareERPOrderEventBus.fireEvent("collectBatchStoreParams",this)},this)}});

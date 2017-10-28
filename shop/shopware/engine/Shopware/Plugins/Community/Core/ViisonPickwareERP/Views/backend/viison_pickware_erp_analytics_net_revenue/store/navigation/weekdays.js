@@ -1,0 +1,1 @@
+Ext.define("Shopware.apps.ViisonPickwareERPAnalyticsNetRevenue.store.navigation.Weekdays",{ override:"Shopware.apps.Analytics.store.navigation.Weekdays",constructor:function(){ this.fields.push("turnoverNet");this.callParent(arguments)}});

@@ -1,0 +1,1 @@
+Ext.define("Shopware.apps.ViisonPickwareERPArticleWarehouseFieldSet.store.BinLocation",{ extend:"Ext.data.Store",model:"Shopware.apps.ViisonPickwareERPArticleWarehouseFieldSet.model.BinLocation",autoLoad:false});

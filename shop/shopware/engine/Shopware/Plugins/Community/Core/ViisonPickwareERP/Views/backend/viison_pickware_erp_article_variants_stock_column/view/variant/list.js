@@ -1,0 +1,2 @@
+// {namespace name=backend/viison_pickware_erp_stock_column/main}
+Ext.define("Shopware.apps.ViisonPickwareERPArticleVariantsStockColumn.view.variant.List",{ override:"Shopware.apps.Article.view.variant.List",getColumns:function(){ var i=this.callParent(arguments);Ext.each(i,function(i){ if(i.dataIndex==="inStock"){ i.header='{s name=column/in_stock/header}{/s}';i.tooltip='{s name=column/in_stock/tooltip}{/s}';i.editor=null;return false}return undefined});return i}});

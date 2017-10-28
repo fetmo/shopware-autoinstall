@@ -1,0 +1,1 @@
+Ext.define("Shopware.apps.ViisonPickwareERPOrderStatusBasedPositionUpdate.model.Position",{ override:"Shopware.apps.Order.model.Position",cancelEntirely:function(){ var t=this.get("quantity");this.set("statusId",0);this.set("quantity",0);this.set("shipped",0);this.set("viisonCanceledQuantity",this.get("viisonCanceledQuantity")+t)}});

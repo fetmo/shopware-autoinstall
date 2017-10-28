@@ -1,0 +1,1 @@
+Ext.define("Shopware.apps.ViisonPickwareERPSystemInfo.store.File",{ extend:"Ext.data.Store",model:"Shopware.apps.ViisonPickwareERPSystemInfo.model.File",autoLoad:false,proxy:{ type:"ajax",api:{ read:'{url controller=ViisonPickwareERPSystemInfo action=getFileList}'},reader:{ type:"json",root:"data"}}});

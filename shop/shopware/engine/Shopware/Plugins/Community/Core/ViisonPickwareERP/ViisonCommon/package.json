@@ -1,0 +1,22 @@
+{
+    "name": "shopware-common",
+    "description": "The fundamental library all our shopware plugins are based on.",
+    "author": "VIISON",
+    "license": "UNLICENSED",
+    "private": true,
+    "scripts": {
+        "eslint": "eslint .",
+        "eslint:fix": "eslint --fix ."
+    },
+    "devDependencies": {
+        "viison-style-guide": "file:./vendor/viison/style-guide"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/VIISON/ShopwareCommon.git"
+    },
+    "bugs": {
+        "url": "https://github.com/VIISON/ShopwareCommon/issues"
+    },
+    "homepage": "https://github.com/VIISON/ShopwareCommon#readme"
+}

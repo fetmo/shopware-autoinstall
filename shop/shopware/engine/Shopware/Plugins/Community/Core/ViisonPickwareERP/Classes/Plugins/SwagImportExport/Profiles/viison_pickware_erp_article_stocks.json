@@ -1,0 +1,88 @@
+{
+    "id": "root",
+    "name": "Root",
+    "type": "node",
+    "children": [
+        {
+            "id": "8e072a713f",
+            "name": "Header",
+            "index": 0,
+            "type": "node",
+            "children": [
+                {
+                    "id": "751f472e4e",
+                    "name": "HeaderChild",
+                    "index": 0,
+                    "type": "node",
+                    "shopwareField": ""
+                }
+            ]
+        },
+        {
+            "id": "d63d76fbfa",
+            "name": "ViisonPickwareERPArticleStocks",
+            "index": 1,
+            "type": "node",
+            "children": [
+                {
+                    "id": "d259e8d380",
+                    "name": "article",
+                    "index": 0,
+                    "type": "iteration",
+                    "adapter": "default",
+                    "children": [
+                        {
+                            "id": "ceba80a110",
+                            "name": "articleNumber",
+                            "index": 0,
+                            "type": "leaf",
+                            "shopwareField": "articleNumber"
+                        },
+                        {
+                            "id": "fttpcwzua0",
+                            "name": "articleName",
+                            "index": 1,
+                            "type": "leaf",
+                            "shopwareField": "articleName"
+                        },
+                        {
+                            "id": "62270b9a67",
+                            "name": "warehouse",
+                            "index": 2,
+                            "type": "leaf",
+                            "shopwareField": "warehouse"
+                        },
+                        {
+                            "id": "ff15045921",
+                            "name": "binLocation",
+                            "index": 3,
+                            "type": "leaf",
+                            "shopwareField": "binLocation"
+                        },
+                        {
+                            "id": "77d0161a15",
+                            "name": "physicalStock",
+                            "index": 4,
+                            "type": "leaf",
+                            "shopwareField": "physicalStock"
+                        },
+                        {
+                            "id": "53a2c2f1d0",
+                            "name": "availableStock",
+                            "index": 5,
+                            "type": "leaf",
+                            "shopwareField": "availableStock"
+                        },
+                        {
+                            "id": "05469e86ba",
+                            "name": "purchasePrice",
+                            "index": 6,
+                            "type": "leaf",
+                            "shopwareField": "purchasePrice"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

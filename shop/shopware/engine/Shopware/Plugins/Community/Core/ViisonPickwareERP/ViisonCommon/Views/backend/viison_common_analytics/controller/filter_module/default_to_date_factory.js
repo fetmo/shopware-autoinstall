@@ -1,0 +1,1 @@
+Ext.define("Shopware.apps.ViisonCommonAnalytics.controller.FilterModule.DefaultToDateFactory",{ getToolbarComponentValueRetriever:function(){ return function(e){ var t=e.child("[name=to_date]").getValue();return Ext.Date.format(t,"Y-m-d")}},getToolbarFilterConfig:function(){ return{ componentConfig:{ name:"to_date",isDefault:true}}}});

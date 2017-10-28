@@ -1,0 +1,2 @@
+// {namespace name=backend/viison_pickware_erp_article_purchase_price/main}
+Ext.define("Shopware.apps.ViisonPickwareERPArticlePurchasePrice.view.variant.Detail",{ override:"Shopware.apps.Article.view.variant.Detail",createBaseFieldSet:function(){ var e=this.callParent(arguments);Ext.Array.each(e.items.items,function(e){ if(e.name==="purchasePrice"){ Ext.apply(e,{ fieldLabel:ViisonPickwarePurchasePriceHelper.purchasePriceLabel('{s name=last_purchase_price}{/s}')});return false}return undefined});return e}});

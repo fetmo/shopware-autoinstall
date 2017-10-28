@@ -1,0 +1,1 @@
+Ext.define("Shopware.apps.ViisonPickwareERPOrderCancelationWindow.store.Position",{ extend:"Ext.data.Store",model:"Shopware.apps.ViisonPickwareERPOrderCancelationWindow.model.Position",autoLoad:false});

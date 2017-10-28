@@ -1,0 +1,1 @@
+Ext.define("Shopware.apps.ViisonPickwareERPRatedStock.model.Stock",{ extend:"Ext.data.Model",fields:[{ name:"created",type:"date",dateFormat:"d.m.Y"},{ name:"quantity",type:"int",useNull:true},{ name:"price",type:"float",useNull:true},{ name:"total",type:"float",convert:function(e,t){ return t.raw.quantity*t.raw.price}}]});

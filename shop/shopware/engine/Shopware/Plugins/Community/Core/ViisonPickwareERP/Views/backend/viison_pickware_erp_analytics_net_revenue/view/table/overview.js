@@ -1,0 +1,2 @@
+// {namespace name=backend/viison_pickware_erp_analytics/net_revenue}
+Ext.define("Shopware.apps.ViisonPickwareERPAnalyticsNetRevenue.view.table.Overview",{ override:"Shopware.apps.Analytics.view.table.Overview",getColumns:function(){ var e=this.callParent(arguments);e.splice(4,0,{ dataIndex:"turnoverNet",text:'{s name=general/turnoverNet}Turnover net{/s}',renderer:ViisonCurrencyFormatter.renderer});return e}});

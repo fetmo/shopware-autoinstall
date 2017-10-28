@@ -1,0 +1,1 @@
+Ext.define("Shopware.apps.ViisonPickwareERPBinLocationEditor.store.Comment",{ extend:"Ext.data.Store",model:"Shopware.apps.ViisonPickwareERPBinLocationEditor.model.Comment",autoLoad:false,proxy:{ type:"ajax",api:{ read:'{url controller=ViisonPickwareERPBinLocationEditor action=getCommentList}'},reader:{ type:"json",root:"data",totalProperty:"total"}}});

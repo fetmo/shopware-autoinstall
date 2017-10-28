@@ -1,0 +1,22 @@
+{
+    "name": "shopware-pickware-erp",
+    "description": "The Shopware plugin that adds the basic Pickware (Shopware ERP) features to Shopware.",
+    "author": "VIISON",
+    "license": "UNLICENSED",
+    "private": true,
+    "scripts": {
+        "eslint": "eslint .",
+        "eslint:fix": "eslint --fix ."
+    },
+    "devDependencies": {
+        "viison-style-guide": "file:./vendor/viison/style-guide"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/VIISON/ShopwarePickwareERP.git"
+    },
+    "bugs": {
+        "url": "https://github.com/VIISON/ShopwarePickwareERP/issues"
+    },
+    "homepage": "https://github.com/VIISON/ShopwarePickwareERP#readme"
+}

@@ -1,0 +1,1 @@
+Ext.define("Shopware.apps.ViisonPickwareERPArticleVariantConfigurator.view.variant.configurator.Template",{ override:"Shopware.apps.Article.view.variant.configurator.Template",createLeftSettingsContainer:function(){ var e=this.callParent(arguments);var r=e.items.findBy(function(e){ return e.name==="inStock"});if(r){ e.remove(r)}return e}});

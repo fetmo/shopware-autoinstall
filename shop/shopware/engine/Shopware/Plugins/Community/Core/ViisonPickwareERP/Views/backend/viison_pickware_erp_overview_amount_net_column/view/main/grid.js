@@ -1,0 +1,2 @@
+// {namespace name=backend/viison_pickware_erp_overview_amount_net_column/main}
+Ext.define("Shopware.apps.ViisonPickwareERPOverviewAmountNetColumn.view.main.Grid",{ override:"Shopware.apps.Overview.view.main.Grid",getColumns:function(){ var e=this.callParent(arguments);e.splice(2,0,{ xtype:"numbercolumn",dataIndex:"amountNet",header:'{s name=column/amount_net/header}{/s}',align:"right",flex:1,summaryType:"sum",summaryRenderer:this.summaryRenderer,renderer:this.trendRenderer});return e}});

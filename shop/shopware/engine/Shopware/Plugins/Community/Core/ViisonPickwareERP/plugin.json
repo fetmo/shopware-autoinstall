@@ -1,0 +1,15 @@
+{
+    "currentVersion": "3.2.51",
+    "author": "VIISON GmbH",
+    "copyright": "Copyright © 2016 VIISON GmbH",
+    "license": "All rights reserved.",
+    "support": "support@pickware.de",
+    "link": "https://www.pickware.de/",
+    "label": {
+        "de": "Shopware ERP powered by Pickware",
+        "en": "Shopware ERP powered by Pickware"
+    },
+    "compatibility": {
+        "minimumVersion": "5.2.0"
+    }
+}

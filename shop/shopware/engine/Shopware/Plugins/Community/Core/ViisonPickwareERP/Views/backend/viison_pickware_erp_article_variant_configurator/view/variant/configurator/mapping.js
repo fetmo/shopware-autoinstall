@@ -1,0 +1,2 @@
+// {namespace name=backend/viison_pickware_erp_article_variant_configurator/main}
+Ext.define("Shopware.apps.ViisonPickwareERPArticleVariantConfigurator.view.variant.configurator.Mapping",{ override:"Shopware.apps.Article.view.variant.configurator.Mapping",initComponent:function(){ this.callParent();this.on("show",function(){ this.setHeight(390)},this)},createItems:function(){ var i=this.callParent();var n=Ext.create("Ext.container.Container",{ html:'{s name=mapping/hint}{/s}',margin:"0 0 10",cls:"viison-common--info-panel"});i.splice(1,0,n);return i}});

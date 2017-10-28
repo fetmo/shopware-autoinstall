@@ -1,0 +1,2 @@
+// {namespace name=backend/viison_pickware_erp_system_info/main}
+Ext.define("Shopware.apps.ViisonPickwareERPSystemInfo.view.main.Window",{ override:"Shopware.apps.Systeminfo.view.main.Window",createTabPanel:function(){ var i=this.callParent(arguments);i.add({ xtype:"container",title:'{s name=window/tabpanel/pickware_erp_file_tab/title}{/s}',overflowY:"scroll",items:[{ xtype:"viison_pickware_erp_systeminfo-systeminfo-filelist"}]});return i}});

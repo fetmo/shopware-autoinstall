@@ -1,0 +1,1 @@
+Ext.define("Shopware.apps.ViisonPickwareERPSupplierOrders.model.order.Attachment",{ extend:"Ext.data.Model",fields:[{ name:"id",type:"int"},{ name:"mediaId",type:"int"},{ name:"filename",type:"string"},{ name:"date",type:"date"}]});

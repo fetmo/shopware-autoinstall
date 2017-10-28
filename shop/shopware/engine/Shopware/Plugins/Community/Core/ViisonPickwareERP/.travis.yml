@@ -1,0 +1,20 @@
+language: php
+sudo: false
+
+matrix:
+  include:
+    - php: 7.0
+
+cache:
+  directories:
+    - $HOME/.composer/cache/files
+
+install:
+    - composer install
+    - git clone --depth=1 git@github.com:VIISON/travis-ci-tools.git
+    - ./travis-ci-tools/shopware-plugins/steps/install/install-php-cs-if-required.sh
+    - ./travis-ci-tools/shopware-plugins/steps/install/npm-install-if-required.sh
+
+script:
+    - ./travis-ci-tools/shopware-plugins/steps/script/php-cs-if-required.sh
+    - ./travis-ci-tools/shopware-plugins/steps/script/eslint-if-required.sh
