@@ -1,6 +1,11 @@
 /sql/3_*
+
 /shop/config.php
+/shop/composer.phar
+
 /shop/var/cache/production*
 /shop/var/cache/dev*
 /shop/var/cache/testing*
+
 /shop/vendor/*
+

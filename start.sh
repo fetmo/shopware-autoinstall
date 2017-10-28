@@ -45,7 +45,7 @@ fi
 wget http://getcomposer.org/composer.phar
 chmod +x composer.phar
 
-php composer.phar install
+php composer.phar install --no-dev
 
 chmod +x bin/console
 php bin/console sw:cache:clear
